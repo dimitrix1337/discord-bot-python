@@ -23,7 +23,7 @@ players = {}
 
 bot = commands.Bot(command_prefix='/', description="Bot creado por Dimitrix")
 
-API_KEY = 'RGAPI-c72a70c0-9363-47c0-80b8-2ec3570ece03'
+API_KEY = 'SOME_API_KEY'
 
 challenger = "https://i.pinimg.com/originals/90/8f/95/908f95127caf7f739877f9f555807361.png"
 gran_master = "https://www.eloboostroyal.es/assets/images/divisions/grandmaster.png"
