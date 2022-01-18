@@ -415,4 +415,4 @@ async def on_ready():
 
 
 host()
-bot.run('ODA5ODAzMDU2NDA0NDk2Mzk1.YCaZ3g.czWtH_BaQR1uSCFUYYHg2Zycrxc')
+bot.run('SOME_DISCORD_PRIVATE_KEYS')
