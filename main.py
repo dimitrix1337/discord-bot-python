@@ -54,14 +54,6 @@ async def error(contexto):
   )
   await contexto.send(embed=embed)
 
-@bot.command()
-async def escuchar(contexto, url):
-    server = contexto.message.server
-    local = contexto.author.voice.channel
-    player = local.create_ytdl_player(url)
-    players[server.id] = player
-    player.start()
-
 def icon_founded(name_pj):
     name_pj = name_pj.lower()
     url = f"http://ddragon.leagueoflegends.com/cdn/11.8.1/img/champion/{name_pj.capitalize()}.png"
