@@ -9,18 +9,6 @@ from PIL import Image
 with open('champions.json', 'r', encoding="utf8") as f:
     data = json.load(f)
 
-
-def search_image(name):
-    imagen = Image.open(f'{name}')
-    return imagen
-
-
-
-
-hora_actual = datetime.date.today()
-
-players = {}
-
 bot = commands.Bot(command_prefix='/', description="Bot creado por Dimitrix")
 
 API_KEY = 'SOME_API_KEY'
