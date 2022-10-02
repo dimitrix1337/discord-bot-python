@@ -99,34 +99,6 @@ async def champ(contexto, playername, championname):
   except:
     await error(contexto)
 
-
-
-"""def champ_stats_one(id_sum, pjName):
-    url_champ = f"https://la2.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/{id_sum}?api_key={API_KEY}"
-    request_champs = requests.get(url_champ)
-    champs_list_json = request_champs.json()
-    pjName = pjName.lower()
-    url = f"http://ddragon.leagueoflegends.com/cdn/11.8.1/data/en_US/champion/{pjName.capitalize()}.json"
-    request_champ = requests.get(url)
-    champ_name = request_champ.json()
-    name_champ = champ_name[pjName.capitalize()]['key']
-
-    for champ in champs_list_json:
-      if champ['championId'] == name_champ:
-          pj = data['data'][pjName.capitalize()]
-          info = champs_list_json[champ]
-          pj_founded_icon = icon_founded(pj)
-          pj_founded_points = info['championPoints']
-          pj_mastery_level = info['championLevel']
-
-          break
-    return pj_founded_icon, pj_founded_points, pj_mastery_level
-"""
-
-
-
-
-
 def iteracion_champ(cantidad, champ_list, mains_list, mains_point_list):
 
     for champ in champ_list[0:cantidad]:
