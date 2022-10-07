@@ -9,7 +9,7 @@ from PIL import Image
 with open('champions.json', 'r', encoding="utf8") as f:
     data = json.load(f)
 
-bot = commands.Bot(command_prefix='/', description="Bot creado por Dimitrix")
+bot = commands.Bot(command_prefix='/', description="Bot creado por Octavio")
 
 API_KEY = 'SOME_API_KEY'
 
